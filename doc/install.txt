@@ -1,0 +1,10 @@
+
+(1) create db 
+   mysql -uroot -p < scripts/create_gcm.sql 
+
+(2) copy or link the src dir under your web server dir
+
+e.g: for apache
+   ln -s src /var/www/gcm_server_php
+ 
+   
